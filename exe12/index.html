@@ -1,53 +1,45 @@
 <!DOCTYPE html>
-<html lang="ch">
+<html lang="zh-CN">
 
 <head>
   <meta charset="UTF-8">
   <title>exe12</title>
   <style>
     h1 {
-      text-shadow: black;
-      text-decoration: wavy underline;
-      text-transform: uppercase;
+      text-align: center;
+      text-shadow: rgb(20, 33, 214);
+      text-decoration-line: underline;
+      text-decoration-style: wavy;
+      font-size: 48px;
+    }
+    #text-of01 {
       width: 200px;
       border: 1px solid salmon;
       overflow: hidden;
       text-overflow: clip;
       white-space: nowrap;
     }
-    h2 {
-      text-shadow: black;
-      text-decoration: wavy underline;
-      text-transform: uppercase;
+    p#text02-of02 {
       width: 200px;
-      border: 1px solid salmon;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
+      border: 1px solid rgb(52, 52, 255);
     }
-    h3 {
-      text-align: center;
-      text-shadow: black;
-      text-decoration: wavy underline;
-      text-transform: uppercase;
-    }
-    p {
+    #text-title01 {
       width: 150px;
       border: 1px solid salmon;
       word-wrap: normal;
     }
-    h4 {
+    p#text-title02 {
       width: 150px;
       border: 1px solid salmon;
       word-wrap: break-word;
     }
-    pre {
+    #text-content01 {
       width: 400px;
       border: 1px solid blue;
       text-indent: 32px;
       text-align: justify;
     }
-    h5 {
+    #text-content02 {
       width: 400px;
       border: 1px solid blue;
       text-indent: 40px;
@@ -60,9 +52,9 @@
 
 <body>
   <h1>The Enchanted Forest</h1>
-  <h2>The Enchanted Forest</h2>
-  <h3 class="center">The Enchanted Forest</h3>
-  <pre>Once upon a time in a quaint little village nestled between rolling hills,
+  <h1>The Enchanted Forest</h1>
+  <h1 class="center">The Enchanted Forest</h1>
+  <p id="text-content01">Once upon a time in a quaint little village nestled between rolling hills,
     there lived a young girl named Lily.
     Lily was known throughout the village for her boundless curiosity and adventurous spirit.
     One sunny morning, while exploring the forest that bordered the village,
@@ -73,18 +65,21 @@
     she pushed open the door and stepped inside.To her amazement, Lily found herself in a magical world filled with shimmering light and colorful flowers.
     Butterflies flitted around her, and birds sang sweet melodies from the treetops.
     As she wandered deeper into the enchanted forest,
-    Lily encountered all manner of wondrous creatures – from mischievous fairies to wise old owls.</pre>
-    <h5>But as the sun began to set and shadows lengthened across the forest floor,
+    Lily encountered all manner of wondrous creatures – from mischievous fairies to wise old owls.
+  </p>
+
+    <p id="text-content02">But as the sun began to set and shadows lengthened across the forest floor,
       Lily realized it was time to return home. With a heavy heart,
       she bid farewell to her new friends and made her way back to the village.
       From that day on,
       Lily often found herself returning to the enchanted forest,
       each visit bringing new adventures and discoveries.
       And though she knew that her magical encounters were meant to be shared with no one,
-      she couldn't help but smile whenever she thought of the secret world that existed just beyond the village's edge.</h5>
+      she couldn't help but smile whenever she thought of the secret world that existed just beyond the village's edge.
+    </p>
       <hr>
-    <p>(https://www.chatgpt.com)</p>
-    <h4>(https://www.chatgpt.com)</h4>
+    <p id="text-title01">(https://www.chatgpt.com)</p>
+    <p id="text-title02">(https://www.chatgpt.com)</p>
 </body>
 
 </html>
