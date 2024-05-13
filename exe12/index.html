@@ -19,9 +19,12 @@
       text-overflow: clip;
       white-space: nowrap;
     }
-    p#text02-of02 {
+    p#text-of02 {
       width: 200px;
       border: 1px solid rgb(52, 52, 255);
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
     }
     #text-title01 {
       width: 150px;
@@ -44,6 +47,7 @@
       border: 1px solid blue;
       text-indent: 40px;
       text-align: justify;
+      line-height: 50px;
     }
 
     
@@ -51,8 +55,8 @@
 </head>
 
 <body>
-  <h1>The Enchanted Forest</h1>
-  <h1>The Enchanted Forest</h1>
+  <h1 id="text-of01">The Enchanted Forest</h1>
+  <h1 id="text-of02">The Enchanted Forest</h1>
   <h1 class="center">The Enchanted Forest</h1>
   <p id="text-content01">Once upon a time in a quaint little village nestled between rolling hills,
     there lived a young girl named Lily.
